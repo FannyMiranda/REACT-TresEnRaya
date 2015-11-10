@@ -1,0 +1,23 @@
+{
+  "name": "react.tresenraya",
+  "version": "1.0.0",
+  "description": "Proyecto para la asignatura de \"Ingeniería Web\" del DIT-UPM",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mgoigfer/react.tresenraya.git"
+  },
+  "author": "Mikel Goig",
+  "homepage": "https://github.com/mgoigfer/react.tresenraya",
+  "devDependencies": {
+    "babelify": "^6.4.0",
+    "browserify": "^11.2.0"
+  },
+  "dependencies": {
+    "react": "^0.14.2",
+    "react-dom": "^0.14.2"
+  },
+  "scripts": {
+    "build": "browserify -t babelify src/js/app.js > src/build/app.js",
+    "app": "static -p 3000"
+  }
+}
