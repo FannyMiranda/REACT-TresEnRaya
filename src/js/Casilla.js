@@ -4,25 +4,30 @@
 
 import React from 'react';
 
-const boxStyle = {
+let boxStyle = {
     height: '100px',
     width : '100px'
 };
 
 export default class Casilla extends React.Component
 {
-    boxClick(ev)
+    constructor(props)
     {
-        this.props.handleClick(this.props.rowIndex, this.props.columnIndex)
+        super(props);
+
+        this.onClick = this.onClick.bind(this);
+    }
+    onClick(ev)
+    {
+        if(this.props.value === "-")
+            this.props.click.call(null, this.props.rowIndex, this.props.columnIndex)
     }
     render()
     {
         return(
-
-<button style={boxStyle} onClick={this.boxClick.bind(this)}>
-    {this.props.value}
-</button>
-
+            <button style={boxStyle} className={this.props.value === "-" ? "clickable" : "no_clickable"} onClick={this.onClick}>
+                {this.props.value}
+            </button>
         );
     }
 }
