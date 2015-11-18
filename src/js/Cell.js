@@ -4,12 +4,12 @@
 
 import React from 'react';
 
-let boxStyle = {
+let cellStyle = {
     height: '100px',
     width : '100px'
 };
 
-export default class Casilla extends React.Component
+export default class Cell extends React.Component
 {
     constructor(props)
     {
@@ -25,7 +25,7 @@ export default class Casilla extends React.Component
     render()
     {
         return(
-            <button style={boxStyle} className={this.props.value === "-" ? "clickable" : "no_clickable"} onClick={this.onClick}>
+            <button style={cellStyle} className={this.props.value === "-" ? "clickable" : "no_clickable"} onClick={this.onClick}>
                 {this.props.value}
             </button>
         );

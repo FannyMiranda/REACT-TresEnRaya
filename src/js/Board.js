@@ -3,9 +3,9 @@
  */
 
 import React from 'react';
-import Casilla from './Casilla';
+import Cell from './Cell';
 
-export default class Tablero extends React.Component
+export default class Board extends React.Component
 {
     render()
     {
@@ -13,7 +13,7 @@ export default class Tablero extends React.Component
 
             let row = rowValues.map((value, columnIndex) => {
                 return(
-                    <Casilla
+                    <Cell
                         key         = {"" + rowIndex + columnIndex}
                         value       = {value}
                         rowIndex    = {rowIndex}

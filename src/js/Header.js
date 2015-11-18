@@ -4,7 +4,7 @@
 
 import React from 'react';
 
-export default class Cabecera extends React.Component
+export default class Header extends React.Component
 {
     render()
     {
