@@ -19,7 +19,7 @@
     "react-dom": "^0.14.2"
   },
   "scripts": {
-    "build": "browserify src/js/index.js -o src/build/index.js -t babelify",
+    "build": "browserify src/js/app.js -o src/build/app.js -t babelify",
     "app"  : "static -p 3000"
   }
 }
