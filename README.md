@@ -7,5 +7,5 @@ Proyecto para la asignatura de "Ingeniería Web" del DIT-UPM
 ```
 $ npm install
 $ npm run build
-$ npm start
+$ npm run app
 ```

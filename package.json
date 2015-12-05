@@ -4,10 +4,10 @@
   "description": "Proyecto para la asignatura de \"Ingeniería Web\" del DIT-UPM",
   "repository": {
     "type": "git",
-    "url" : "https://github.com/mgoigfer/react.tresenraya.git"
+    "url" : "https://github.com/mgoigfer/reactjs.projects-tres_en_raya"
   },
   "author": "Mikel Goig",
-  "homepage": "https://github.com/mgoigfer/react.tresenraya",
+  "homepage": "https://github.com/mgoigfer/reactjs.projects-tres_en_raya",
   "devDependencies": {
     "babel-preset-es2015": "^6.1.18",
     "babel-preset-react" : "^6.1.18",
