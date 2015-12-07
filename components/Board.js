@@ -3,7 +3,7 @@
  */
 
 import React from 'react';
-import Cell from './Cell';
+import Cell  from './Cell';
 
 export default class Board extends React.Component
 {

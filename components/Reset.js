@@ -14,7 +14,6 @@ export default class Reset extends React.Component
     }
     onClick(ev)
     {
-        
         this.props.click.call(null)
     }
     render()

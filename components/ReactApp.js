@@ -2,11 +2,11 @@
  * Module dependencies
  */
 
-import React from 'react';
-import Board from './Board';
+import React  from 'react';
+import Board  from './Board';
 import Header from './Header';
-import Reset from './Reset';
-import Alert from './Alert';
+import Reset  from './Reset';
+import Alert  from './Alert';
 
 let JUGADORX = 'JUGADOR 1 -> X';
 let JUGADOR0 = 'JUGADOR 2 -> 0';

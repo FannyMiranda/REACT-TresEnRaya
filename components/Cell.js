@@ -4,7 +4,8 @@
 
 import React from 'react';
 
-let cellStyle = {
+let cellStyle =
+{
     height: '100px',
     width : '100px'
 };
@@ -20,7 +21,7 @@ export default class Cell extends React.Component
     onClick(ev)
     {
         if(this.props.value === "-")
-            this.props.click.call(null, this.props.rowIndex, this.props.columnIndex)
+            this.props.click.call(null, this.props.rowIndex, this.props.columnIndex);
     }
     render()
     {
