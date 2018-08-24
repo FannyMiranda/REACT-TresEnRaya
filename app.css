@@ -6,3 +6,33 @@
 {
     cursor: not-allowed;
 }
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color: cadetblue;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    color: #7ad7da;
+    padding: 30px;
+}
+#container {
+    display: flex;
+    justify-content: center;
+    
+
+}
+button {
+    background-color: #f2faf9;
+    border-color: #639ea1;
+}
+
+button:focus{
+    outline: #639ea1;
+}
+
+
+

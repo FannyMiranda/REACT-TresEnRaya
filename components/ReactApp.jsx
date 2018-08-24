@@ -2,8 +2,8 @@
  * Module dependencies
  */
 
-import React  from 'react';
-import Board  from './Board';
+import React  from '../../../../../Library/Caches/typescript/2.9/node_modules/@types/react';
+import Board  from './Tablero';
 import Header from './Header';
 import Reset  from './Reset';
 import Alert  from './Alert';

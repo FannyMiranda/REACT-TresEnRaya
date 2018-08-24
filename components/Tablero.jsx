@@ -2,8 +2,8 @@
  * Module dependencies
  */
 
-import React from 'react';
-import Cell  from './Cell';
+import React from '../../../../../Library/Caches/typescript/2.9/node_modules/@types/react';
+import Cell  from './Celda';
 
 export default class Board extends React.Component
 {
